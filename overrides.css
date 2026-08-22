@@ -15,3 +15,10 @@
 .support-logo{display:block;width:100%;height:auto}
 .support-content p{margin:0;color:#f5f5f6;font-size:17px;line-height:1.55;font-weight:500}
 @media(max-width:720px){.support-content{grid-template-columns:1fr;gap:22px;text-align:center}.support-logo-card{width:min(340px,100%);margin:auto}.support-content p{font-size:13px}}
+
+.footer-company{display:flex;flex-direction:column;gap:6px;max-width:520px;color:#aeb0ba;font-size:11px;line-height:1.5}
+.footer-company strong{color:#fff;font-size:13px}
+.footer-contacts{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:9px;font-size:13px;font-weight:600}
+.footer-contacts a:hover{color:#cfc8ff}
+@media(max-width:720px){.footer-company{width:100%;order:3}.footer-contacts{margin-left:auto}}
+@media(max-width:480px){.footer-row{align-items:flex-start}.footer-contacts{width:100%;margin-left:0;align-items:flex-start;order:4}}
