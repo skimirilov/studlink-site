@@ -1,0 +1,8 @@
+@media(max-width:1200px) and (min-width:761px){
+  .app-shell{grid-template-columns:215px 1fr}
+  .sidebar{width:215px}
+  .page{padding-left:24px;padding-right:24px}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .dash-grid{grid-template-columns:1fr}
+  .offer-grid{grid-template-columns:repeat(2,1fr)}
+}

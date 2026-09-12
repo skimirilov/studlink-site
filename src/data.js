@@ -1,0 +1,10 @@
+export const offersSeed=[
+ {id:'1',title:'Яндекс Практикум',category:'Образование',reward:1200,limit:50,status:'Активен',brand:'Я',color:'#ffcc00',description:'Помогай друзьям выбирать новую профессию и получай вознаграждение за каждую оплаченную программу.',conversion:12.8,clicks:1248},
+ {id:'2',title:'T-Банк',category:'Финансы',reward:700,limit:120,status:'Активен',brand:'T',color:'#171717',description:'Рекомендуй бесплатную дебетовую карту. Вознаграждение начисляется после первой покупки друга.',conversion:9.4,clicks:936},
+ {id:'3',title:'Skyeng',category:'Образование',reward:900,limit:80,status:'Активен',brand:'S',color:'#7257fa',description:'Приглашай друзей на вводный урок английского и получай бонус после покупки пакета занятий.',conversion:15.1,clicks:741},
+ {id:'4',title:'Самокат',category:'Сервисы',reward:350,limit:200,status:'Активен',brand:'С',color:'#ff3d92',description:'Поделись промокодом на первый заказ быстрой доставки продуктов.',conversion:18.7,clicks:1583},
+ {id:'5',title:'Skillbox',category:'Карьера',reward:1500,limit:35,status:'На паузе',brand:'Sk',color:'#ed2b49',description:'Рекомендуй востребованные онлайн-курсы и получай бонус за успешную рекомендацию.',conversion:7.2,clicks:604},
+ {id:'6',title:'Яндекс Плюс',category:'Развлечения',reward:250,limit:300,status:'Активен',brand:'Я+',color:'#ef3f65',description:'Дарим бонус за каждого друга, который оформит подписку после пробного периода.',conversion:21.3,clicks:2104}
+];
+export const chartData=[{name:'Пн',clicks:38,earnings:700},{name:'Вт',clicks:52,earnings:1050},{name:'Ср',clicks:45,earnings:700},{name:'Чт',clicks:74,earnings:1400},{name:'Пт',clicks:66,earnings:1050},{name:'Сб',clicks:91,earnings:2100},{name:'Вс',clicks:83,earnings:1750}];
+export const payouts=[{id:'SL-4821',date:'16 июля 2026',offer:'T-Банк',amount:700,status:'Выплачено'},{id:'SL-4773',date:'12 июля 2026',offer:'Skyeng',amount:900,status:'Выплачено'},{id:'SL-4690',date:'8 июля 2026',offer:'Самокат',amount:1050,status:'Обработка'},{id:'SL-4512',date:'30 июня 2026',offer:'Яндекс Практикум',amount:1200,status:'Выплачено'}];

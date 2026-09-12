@@ -1,0 +1,4 @@
+.fund-banner{background:#1b1e22;width:100%;padding:0;overflow:hidden}
+.fund-banner img{display:block;width:100%;height:auto;max-width:1176px;margin:0 auto}
+.login>.fund-banner{grid-column:1/-1}
+@media(max-width:760px){.fund-banner img{width:150%;max-width:none;transform:translateX(-16.5%)}.app-shell .fund-banner{margin-bottom:63px}}
